@@ -1,0 +1,18 @@
+{
+	"id": "home",
+	"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quis saepe ipsam iure possimus voluptatum doloremque explicabo.",
+	"btns": [
+		{
+			"text": "make reservation",
+			"href": "#reserv",
+			"icon": "utensils",
+			"iconType": "fa"
+		},
+		{
+			"text": "learn more",
+			"href": "#about",
+			"icon": "readme",
+			"iconType": "fab"
+		}
+	]
+}

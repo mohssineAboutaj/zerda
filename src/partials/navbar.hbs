@@ -1,0 +1,54 @@
+<div class="navbar-fixed nav">
+  <nav class="nav-wrapper primary">
+    <div class="container">
+      <a href="#" class="brand-logo center">
+        {{head.title}}
+      </a>
+      <a href="#" data-target="mobile-menu" class="sidenav-trigger show">
+        <i class="fa fa-fw fa-bars fa-2x"></i>
+      </a>
+      <a href="#" data-target="change-theme" class="sidenav-trigger right">
+        <i class="fa fa-fw fa-cog fa-2x"></i>
+      </a>
+    </div>
+  </nav>
+</div>
+<!-- Start mobile nav -->
+<div id="mobile-menu" class="sidenav">
+  <h3 class="subheader center">{{head.title}}</h3>
+  <ul>
+    {{#each navbar}}
+      <li>
+        <a href="#{{this.href}}" class="sidenav-close">
+          <i class="fas fa-fw fa-{{this.icon}} mx-2 primary-text"></i>
+          {{this.text}}
+        </a>
+      </li>
+    {{/each}}
+  </ul>
+  <div class="my-4">
+    <div class="row">
+      {{#each follow}}
+        <div class="col tooltipped" data-tooltip="{{this.label}}">
+          <a href="{{this.url}}">
+            <i class="fab fa-fw fa-2x fa-{{this.icon}}" style="color: {{this.color}}"></i>
+          </a>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</div>
+<!-- End mobile nav -->
+
+<!-- Start themes menu -->
+<div id="change-theme" class="sidenav">
+  <h3 class="subheader">change the theme</h3>
+  <div class="row">
+    {{#each config.themes}}
+      <a href="#" class="col theme-item sidenav-close {{this}}-text tooltipped mb-2" data-tooltip="<span class='text-capitalize'>{{this}} theme</span>" data-theme="{{this}}">
+        <i class="fas fa-tint fa-2x"></i>
+      </a>
+    {{/each}}
+  </div>
+</div>
+<!-- End themes menu -->

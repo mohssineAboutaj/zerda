@@ -1,0 +1,95 @@
+{
+	"id": "chef",
+	"label": "our chefs",
+	"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, numquam placeat fuga porro accusantium.",
+	"team": [
+		{
+			"name": "john doe",
+			"work": "CEO, Co Founder",
+			"avatar": "img/chef-1.jpg",
+			"socialMedia": [
+				{
+					"icon": "facebook",
+					"label": "facebook",
+					"href": "#"
+				},
+				{
+					"icon": "twitter",
+					"label": "twitter",
+					"href": "#"
+				},
+				{
+					"icon": "instagram",
+					"label": "instagram",
+					"href": "#"
+				}
+			]
+		},
+		{
+			"name": "jane smith",
+			"work": "chef",
+			"avatar": "img/chef-2.jpg",
+			"socialMedia": [
+				{
+					"icon": "facebook",
+					"label": "facebook",
+					"href": "#"
+				},
+				{
+					"icon": "twitter",
+					"label": "twitter",
+					"href": "#"
+				},
+				{
+					"icon": "instagram",
+					"label": "instagram",
+					"href": "#"
+				}
+			]
+		},
+		{
+			"name": "carl johnson",
+			"work": "chef",
+			"avatar": "img/chef-3.jpg",
+			"socialMedia": [
+				{
+					"icon": "facebook",
+					"label": "facebook",
+					"href": "#"
+				},
+				{
+					"icon": "twitter",
+					"label": "twitter",
+					"href": "#"
+				},
+				{
+					"icon": "instagram",
+					"label": "instagram",
+					"href": "#"
+				}
+			]
+		},
+		{
+			"name": "Luke escape",
+			"work": "Head chef",
+			"avatar": "img/chef-4.jpg",
+			"socialMedia": [
+				{
+					"icon": "facebook",
+					"label": "facebook",
+					"href": "#"
+				},
+				{
+					"icon": "twitter",
+					"label": "twitter",
+					"href": "#"
+				},
+				{
+					"icon": "instagram",
+					"label": "instagram",
+					"href": "#"
+				}
+			]
+		}
+	]
+}

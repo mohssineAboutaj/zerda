@@ -1,0 +1,97 @@
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col s12 m4">
+				<h4 class="text-left">{{head.title}}</h4>
+				<p>{{head.description}}</p>
+				<div class="row my-4">
+					{{#each follow}}
+						<div class="col tooltipped" data-tooltip="{{this.label}}">
+							<a href="{{this.url}}">
+								<i class="fab fa-fw fa-2x fa-{{this.icon}}" style="color: {{this.color}}"></i>
+							</a>
+						</div>
+					{{/each}}
+				</div>
+			</div>
+			<div class="col s12 m4">
+				<h4 class="text-left">open hours</h4>
+				<table class="stripped responsive-table">
+					<thead class="uppercase bold">
+						<tr>
+							<td>day</td>
+							<td>from</td>
+							<td>to</td>
+						</tr>
+					</thead>
+					<tbody>
+						{{#each footer.openHours}}
+							<tr>
+								<td>{{this.day}}</td>
+								<td>{{this.from}}</td>
+								<td>{{this.to}}</td>
+							</tr>
+						{{/each}}
+					</tbody>
+				</table>
+			</div>
+			<div id="{{footer.id}}" class="scrollspy col s12 m4">
+				<h4 class="text-left">contact us</h4>
+				<form method="post">
+					<div class="row">
+						{{#each footer.inputs}}
+							{{#if this.type}}
+								<div class="input-field col s12">
+									<i class="fa fa-fw fa-{{this.icon}} prefix"></i>
+									<label for="{{this.id}}-contact">
+				          	{{this.label}}
+				          	{{#if this.required}}
+				          		<span class="danger-text"> *</span>
+				          	{{/if}}
+				          </label>
+				          <input 
+										type="{{this.type}}" 
+										class="validate" 
+										id="{{this.id}}-contact" 
+										name="{{this.id}}"
+										required="{{this.required}}" />
+								</div>
+							{{else}}
+								<div class="input-field col s12">
+									<i class="fa fa-fw fa-{{this.icon}} prefix"></i>
+									<label for="{{this.id}}-contact">
+				          	{{this.label}}
+				          	{{#if this.required}}
+				          		<span class="danger-text"> *</span>
+				          	{{/if}}
+				          </label>
+				          <textarea 
+										class="validate materialize-textarea" 
+										id="{{this.id}}-contact" 
+										name="{{this.id}}"
+										required="{{this.required}}"
+									></textarea>
+								</div>
+							{{/if}}
+						{{/each}}
+					</div>
+ 					<div class="input-field my-4">
+						<button type="submit" class="btn waves-effect primary m-1">
+							<i class="fa fa-paper-plane left-floating"></i>
+							submit
+						</button>
+						<button type="submit" class="btn waves-effect danger m-1">
+							<i class="fa fa-sync-alt left-floating"></i>
+							reset
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="p-4 copyright center dark white-text">
+		<div class="container">
+			&copy; 2019 all right reserved - designed &amp; programming by {{head.author}}
+		</div>
+	</div>
+</footer>

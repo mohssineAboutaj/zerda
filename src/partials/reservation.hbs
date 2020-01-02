@@ -1,0 +1,57 @@
+<div id="{{reserv.id}}" class="{{config.sectionsGlobalClasses}}">
+	<div class="container">
+		<h2>{{reserv.label}}</h2>
+		<div class="row">
+			<div class="col s12 m6">
+				<div id="map"></div>
+			</div>
+			<div class="col s12 m6">
+				<form action="#" method="POST">
+					<div class="row">
+						{{#each reserv.inputs}}
+							{{#if this.options}}
+								<div class="input-field col s12">
+									<i class="fa fa-fw fa-users prefix"></i>
+									<select name="person" id="person">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4+</option>
+									</select>
+								</div>
+							{{else}}
+								<div class="input-field col s12">
+									<i class="fa fa-fw fa-{{this.icon}} prefix"></i>
+									<label for="{{this.id}}">
+				          	{{this.label}}
+				          	{{#if this.required}}
+				          		<span class="danger-text"> *</span>
+				          	{{/if}}
+				          </label>
+				          <input 
+										type="{{this.type}}" 
+										class="validate" 
+										id="{{this.id}}" 
+										name="{{this.id}}"
+										required="{{this.required}}" />
+								</div>
+							{{/if}}
+						{{/each}}
+					</div>
+					<div class="row">
+						<div class="input-field col s12 mt-4">
+							<button type="submit" class="btn waves-effect primary m-1">
+								<i class="fa fa-paper-plane left-floating"></i>
+								submit
+							</button>
+							<button type="submit" class="btn waves-effect danger m-1">
+								<i class="fa fa-sync-alt left-floating"></i>
+								reset
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

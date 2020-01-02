@@ -1,0 +1,37 @@
+[
+  {
+    "href": "home",
+    "text": "home",
+    "icon": "home"
+  },
+  {
+    "href": "about",
+    "text": "about us",
+    "icon": "info-circle"
+  },
+  {
+    "href": "services",
+    "text": "our services",
+    "icon": "list"
+  },
+  {
+    "href": "menu",
+    "text": "our menu",
+    "icon": "utensils"
+  },
+  {
+    "href": "team",
+    "text": "our team",
+    "icon": "users"
+  },
+  {
+    "href": "reserv",
+    "text": "reservation",
+    "icon": "hotdog"
+  },
+  {
+    "href": "contact",
+    "text": "contact us",
+    "icon": "envelope"
+  }
+]

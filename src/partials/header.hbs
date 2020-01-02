@@ -1,0 +1,16 @@
+<header style="background-image: url(img/header-1.jpg)" class="white-text scrollspy" id="{{header.id}}">
+  <div class="overlay overlay-75">
+    <div class="container">
+      <div class="center-align p-4">
+        <h1 class="bold">{{head.title}}</h1>
+        <h4 class="p-4">{{head.description}}</h4>
+        {{#each header.btns}}
+          <a href="{{this.href}}" class="btn waves-effect m-2 primary">
+            <i class="{{this.iconType}} fa-{{this.icon}} left-floating mx-1"></i>
+            {{this.text}}
+          </a>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</header>

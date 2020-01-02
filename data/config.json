@@ -1,0 +1,56 @@
+{
+  "data": "data/",
+  "src": "src/",
+  "dist": "dist/",
+  "less": "src/less/",
+  "js": "src/js/",
+  "hbsIndex": "src/index.hbs",
+  "cookieName": "zerda_themeColor",
+  "defaultTheme": "red",
+  "head": {
+  	"title": "ZERDA",
+  	"longTitle": "ZERDA - An awesome restaurant website",
+  	"description": "This is an awesome one page website for restaurants",
+  	"keywords": "restaurant, zerda, one-page, webpack, less",
+    "author": "Mohssine Aboutaj"
+  },
+  "sectionsGlobalClasses": "section scrollspy",
+  "follow": [
+    {
+      "icon": "facebook",
+      "label": "Facebook",
+      "color": "#3b5999",
+      "url": "#"
+    },
+    {
+      "icon": "twitter",
+      "label": "Twitter",
+      "color": "#55acee",
+      "url": "#"
+    },
+    {
+      "icon": "instagram",
+      "label": "Instagram",
+      "color": "#e4405f",
+      "url": "#"
+    },
+    {
+      "icon": "youtube",
+      "label": "Youtube",
+      "color": "#cd201f",
+      "url": "#"
+    }
+  ],
+  "themes": [
+    "blue",
+    "indigo",
+    "purple",
+    "pink",
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "teal",
+    "cyan"
+  ]
+}

@@ -1,0 +1,144 @@
+{
+	"id": "menu",
+	"label": "our menu",
+	"menuList": [
+		{
+			"label": "breakfast",
+			"meals": [
+				{
+					"name": "Grilled Beef with potatoes",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing el, et numquam vero.",
+					"price": "23",
+					"img": "img/breakfast-1.jpg"
+				},
+				{
+					"name": "Grilled Beef with potatoes",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing el, et numquam vero.",
+					"price": "45",
+					"img": "img/breakfast-2.jpg"
+				},
+				{
+					"name": "Grilled Beef with potatoes",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing el, et numquam vero.",
+					"price": "54",
+					"img": "img/breakfast-3.jpg"
+				}
+			]
+		},
+		{
+			"label": "lunch",
+			"meals": [
+				{
+					"name": "Grilled Beef with potatoes",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing el, et numquam vero.",
+					"price": "23",
+					"img": "img/lunch-1.jpg"
+				},
+				{
+					"name": "Grilled Beef with potatoes",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing el, et numquam vero.",
+					"price": "45",
+					"img": "img/lunch-2.jpg"
+				},
+				{
+					"name": "Grilled Beef with potatoes",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing el, et numquam vero.",
+					"price": "54",
+					"img": "img/lunch-3.jpg"
+				}
+			]
+		},
+		{
+			"label": "dinner",
+			"meals": [
+				{
+					"name": "Grilled Beef with potatoes",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing el, et numquam vero.",
+					"price": "23",
+					"img": "img/dinner-1.jpg"
+				},
+				{
+					"name": "Grilled Beef with potatoes",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing el, et numquam vero.",
+					"price": "45",
+					"img": "img/dinner-2.jpg"
+				},
+				{
+					"name": "Grilled Beef with potatoes",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing el, et numquam vero.",
+					"price": "54",
+					"img": "img/dinner-3.jpg"
+				}
+			]
+		},
+		{
+			"label": "dessert",
+			"meals": [
+				{
+					"name": "Grilled Beef with potatoes",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing el, et numquam vero.",
+					"price": "23",
+					"img": "img/dessert-1.jpg"
+				},
+				{
+					"name": "Grilled Beef with potatoes",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing el, et numquam vero.",
+					"price": "45",
+					"img": "img/dessert-2.jpg"
+				},
+				{
+					"name": "Grilled Beef with potatoes",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing el, et numquam vero.",
+					"price": "54",
+					"img": "img/dessert-3.jpg"
+				}
+			]
+		},
+		{
+			"label": "wine card",
+			"meals": [
+				{
+					"name": "Grilled Beef with potatoes",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing el, et numquam vero.",
+					"price": "23",
+					"img": "img/wine-1.jpg"
+				},
+				{
+					"name": "Grilled Beef with potatoes",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing el, et numquam vero.",
+					"price": "45",
+					"img": "img/wine-2.jpg"
+				},
+				{
+					"name": "Grilled Beef with potatoes",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing el, et numquam vero.",
+					"price": "54",
+					"img": "img/wine-3.jpg"
+				}
+			]
+		},
+		{
+			"label": "drink",
+			"meals": [
+				{
+					"name": "Grilled Beef with potatoes",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing el, et numquam vero.",
+					"price": "23",
+					"img": "img/drink-1.jpg"
+				},
+				{
+					"name": "Grilled Beef with potatoes",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing el, et numquam vero.",
+					"price": "45",
+					"img": "img/drink-2.jpg"
+				},
+				{
+					"name": "Grilled Beef with potatoes",
+					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing el, et numquam vero.",
+					"price": "54",
+					"img": "img/drink-3.jpg"
+				}
+			]
+		}
+	]
+}

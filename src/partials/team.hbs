@@ -1,0 +1,120 @@
+<div id="{{team.id}}" class="{{config.sectionsGlobalClasses}}">
+	<div class="container">
+		<h2>{{team.label}}</h2>
+		<p>{{team.text}}</p>
+		<div class="glide">
+	    <div data-glide-el="track" class="glide__track">
+	      <ul class="glide__slides">
+					{{#each team.team}}
+		        <li class="glide__slide">
+							<div class="card">
+				        <div class="card-image">
+				          <img src="{{this.avatar}}" alt="{{this.name}} avatar" title="{{this.name}}">
+				          <span class="card-title">
+				          	{{this.name}}
+				          </span>
+				        </div>
+				        <div class="card-content">
+				        	<h5>{{this.work}}</h5>
+				        </div>
+								<div class="card-action">
+									<div class="row">
+										{{#each this.socialMedia}}
+											<div class="col tooltipped" data-tooltip="{{this.label}}">
+												<a href="{{this.href}}">
+													<i class="fab fa-fw fa-{{this.icon}}"></i>
+												</a>
+											</div>
+										{{/each}}
+									</div>
+								</div>
+				      </div>
+		        </li>
+		      {{/each}}
+	      </ul>
+	    </div>
+		</div>
+	</div>
+</div>
+
+{{!--
+			{{#each team.team}}
+				<div href="#carousel-{{@index}}" class="carousel-item">
+		      <div class="card">
+		        <div class="card-image">
+		          <img src="{{this.avatar}}" alt="{{this.name}} avatar" title="{{this.name}}">
+		          <span class="card-title">
+		          	{{this.name}}
+		          </span>
+		        </div>
+		        <div class="card-content">
+		        	<h5>{{this.work}}</h5>
+		        </div>
+		      </div>
+	        <div class="row">
+						{{#each this.socialMedia}}
+							<div class="col tooltipped" data-tooltip="{{this.label}}">
+								<a href="{{this.href}}">
+									<i class="fab fa-fw fa-{{this.icon}}"></i>
+								</a>
+							</div>
+						{{/each}}
+					</div>
+        </div>
+			{{/each}}
+
+
+--}}
+
+{{!--
+					<div class="custom-card" style="background-image: url({{this.avatar}})">
+					  <div class="overlay">
+					    <div class = "items"></div>
+					    <div class = "items head">
+					      <p>Flower Embroidery Hoop Art</p>
+					      <hr>
+					    </div>
+					    <div class = "items price">
+					      <p class="old">$699</p>
+					      <p class="new">$345</p>
+					    </div>
+					    <div class="items cart">
+					      <i class="fa fa-shopping-cart"></i>
+					      <span>ADD TO CART</span>
+						  </div>
+						</div>
+					</div>
+
+--}}
+
+{{!--
+				<a href="#carousel-{{@index}}" class="carousel-item">
+					<span class="card">
+						<div class="card-image">
+							<img src="{{this.avatar}}" alt="{{this.name}} avatar" title="{{this.name}}">
+							<span class="card-title dark-text">
+								{{this.name}}
+							</span>
+						</div>
+						<div class="card-content">
+							<h4 class="primary-text">{{this.work}}</h4>
+						</div>
+						<div class="card-action">
+							text
+						</div>
+						{{!-- <div class="card-action">
+							<div class="row">
+								{{#each this.socialMedia}}
+									<div class="col tooltipped" data-tooltip="{{this.label}}">
+										<a href="{{this.href}}">
+											<i class="fab fa-fw fa-{{this.icon}}"></i>
+										</a>
+									</div>
+								{{/each}}
+							</div>
+						</div> --}}
+{{!--
+					</span>
+				</a>
+
+--}}

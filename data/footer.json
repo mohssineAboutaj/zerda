@@ -1,0 +1,55 @@
+{
+	"id": "contact",
+	"openHours": [
+		{
+			"day": "Monday",
+			"from": "9:00",
+			"to": "24:00"
+		},
+		{
+			"day": "Tuesday",
+			"from": "9:00",
+			"to": "24:00"
+		},
+		{
+			"day": "Wednesday",
+			"from": "9:00",
+			"to": "24:00"
+		},
+		{
+			"day": "Thursday",
+			"from": "9:00",
+			"to": "24:00"
+		},
+		{
+			"day": "Friday",
+			"from": "9:00",
+			"to": "02:00"
+		},
+		{
+			"day": "Saturday",
+			"from": "9:00",
+			"to": "02:00"
+		},
+		{
+			"day": "Sunday",
+			"from": "14:00",
+			"to": "24:00"
+		}
+	],
+	"inputs": [
+		{
+			"type": "email",
+			"id": "email",
+			"label": "your email",
+			"icon": "at",
+			"required": true
+		},
+		{
+			"id": "msg",
+			"label": "your message",
+			"icon": "envelope",
+			"required": true
+		}
+	]
+}

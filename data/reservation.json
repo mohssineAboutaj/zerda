@@ -1,0 +1,48 @@
+{
+	"id": "reserv",
+	"label": "get a reservation",
+	"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. natus vel quasi libero, dolores eveniet ut!",
+	"inputs": [
+		{
+			"type": "text",
+			"id": "name",
+			"label": "your name",
+			"icon": "user",
+			"required": true
+		},
+		{
+			"type": "text",
+			"id": "phone",
+			"label": "your phone",
+			"icon": "phone",
+			"required": true
+		},
+		{
+			"type": "email",
+			"id": "email",
+			"label": "your email address",
+			"icon": "envelope",
+			"required": false
+		},
+		{
+			"type": "date",
+			"id": "time",
+			"label": "time",
+			"icon": "clock",
+			"required": true
+		},
+		{
+			"type": "select",
+			"id": "person",
+			"label": "persons count",
+			"icon": "users",
+			"required": true,
+			"options": {
+				"1": "1",
+				"2": "2",
+				"3": "3",
+				"4+": "4+"
+			}
+		}
+	]
+}

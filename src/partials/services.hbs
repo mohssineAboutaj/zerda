@@ -1,0 +1,27 @@
+<div id="{{services.id}}" class="{{config.sectionsGlobalClasses}}">
+	<div class="container">
+		<h2>{{services.label}}</h2>
+		<div class="row">
+			{{#each services.services}}
+				<div class="col s12 m6 xl3">
+					<div class="card">
+						<div class="card-content">
+							<div class="valign-wrapper">
+								<div class="circle p-4 my-4 primary-border">
+									<i class="fa fa-2x fa-fw fa-{{this.icon}} primary-text"></i>
+								</div>
+							</div>
+							<h3>{{this.title}}</h3>
+							<p>{{this.description}}</p>
+						</div>
+						<div class="card-action">
+							<a href="#" class="btn waves-effect primary block">
+								get now
+							</a>
+						</div>
+					</div>
+				</div>
+			{{/each}}
+		</div>
+	</div>
+</div>

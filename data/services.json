@@ -1,0 +1,26 @@
+{
+	"id": "services",
+	"label": "our services",
+	"services": [
+		{
+			"icon": "birthday-cake",
+			"title": "Birthday Party",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elassumenda, eaque modi sit et facilis quas quae quos quaerat hic."
+		},
+		{
+			"icon": "ring",
+			"title": "Wedding Party",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elassumenda, eaque modi sit et facilis quas quae quos quaerat hic."
+		},
+		{
+			"icon": "handshake",
+			"title": "Business Meetings",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elassumenda, eaque modi sit et facilis quas quae quos quaerat hic."
+		},
+		{
+			"icon": "graduation-cap",
+			"title": "School Party",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elassumenda, eaque modi sit et facilis quas quae quos quaerat hic."
+		}
+	]
+}

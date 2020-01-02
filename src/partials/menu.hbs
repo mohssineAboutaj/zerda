@@ -1,0 +1,23 @@
+<div id="{{menu.id}}" class="{{config.sectionsGlobalClasses}}">
+  <h2>{{menu.label}}</h2>
+  <div class="container">
+    <div class="filter-options center mb-4">
+      <button class="btn m-1 btn-flat" data-group="all">all</button>
+      {{#each menu.menuList}}
+        <button class="btn m-1 btn-flat" data-group="{{this.label}}">{{this.label}}</button>
+      {{/each}}
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="menu-shuffle-grid" class="row my-shuffle-container shuffle">
+      {{#each menu.menuList as |list|}}
+        {{#each this.meals}}
+          <div class="col s12 m6 l4 xl3 js-item" data-groups='["{{list.label}}","all"]'>
+            <img src="{{this.img}}" alt="{{this.name}}-img"class="responsive-img card materialbox tooltipped" data-tooltip="{{this.name}}">
+          </div>
+        {{/each}}
+      {{/each}}
+    </div>
+  </div>
+</div>
