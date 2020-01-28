@@ -33,6 +33,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
     "@glidejs/glide": "^3.3.0",
+    "aos": "^2.3.4",
     "bootstrap-utilities": "^4.1.3",
     "data-store": "^3.1.0",
     "google-maps": "^3.3.0",
@@ -42,26 +43,26 @@
     "shufflejs": "^5.2.2"
   },
   "repositories": [
-		{
-			"type": "git",
-			"url": "bitbucket:mohssineAboutaj/zerda.git"
-		},
-		{
-			"type": "git",
-			"url": "github:mohssineAboutaj/zerda"
-		}
-	],
+    {
+      "type": "git",
+      "url": "bitbucket:mohssineAboutaj/zerda.git"
+    },
+    {
+      "type": "git",
+      "url": "github:mohssineAboutaj/zerda"
+    }
+  ],
   "keywords": [
-		"restaurant",
-		"food",
-		"landing page",
-		"food template",
-		"less",
-		"pwa",
-		"webpack",
-		"hbs",
-		"handlebars",
-		"materialize-css"
-	],
+    "restaurant",
+    "food",
+    "landing page",
+    "food template",
+    "less",
+    "pwa",
+    "webpack",
+    "hbs",
+    "handlebars",
+    "materialize-css"
+  ],
   "homepage": "https://zerda.netlify.com"
 }

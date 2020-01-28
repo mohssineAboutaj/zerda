@@ -1,6 +1,8 @@
 # Zerda
 
-This is an awesome one page website for restaurants
+
+## About
+An awesome one page website for restaurants, it's come with new modern design & technologies support like PWA (Progressive Web App), the template is easy to modify data & styles, it's come with multi-theme color thats mean the User can choose the theme as he/she like.
 
 ## Features
 + PWA (Progressive Web App)

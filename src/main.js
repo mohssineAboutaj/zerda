@@ -19,6 +19,10 @@ import "../node_modules/materialize-css/dist/js/materialize.min.js";
 import Shuffle from 'shufflejs';
 window.Shuffle = Shuffle;
 
+// import AOS (Animation On Scroll)
+import AOS from 'aos';
+window.AOS = AOS;
+
 // import service worker for PWA
 import "./js/sw.js";
 
@@ -27,3 +31,4 @@ import "./js/custom.js";
 
 // import custom style & theme loader
 import "./js/change-theme.js";
+

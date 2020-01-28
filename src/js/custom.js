@@ -155,5 +155,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }).catch((err) => {
     console.log(err)
   })
-  /* End random header background */
+	/* End random header background */
+
+	/* Start AOS (Animation On Scroll) */
+	AOS.init();
+	/* End AOS (Animation On Scroll) */
 });
