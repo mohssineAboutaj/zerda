@@ -18,7 +18,11 @@ module.exports = webpackMerge(common, {
       {
         from: "src/manifest.json",
         to: "./",
-      },
+			},
+			{
+				from: "src/app.apk",
+				to: "./",
+			}
     ]),
     new imageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i })
   ],
