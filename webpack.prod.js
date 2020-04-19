@@ -24,6 +24,6 @@ module.exports = webpackMerge(common, {
 				to: "./",
 			}
     ]),
-    new imageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i })
+    // new imageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i })
   ],
 });
